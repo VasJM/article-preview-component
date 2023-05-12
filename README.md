@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/responsive-article-preview-component-using-css-grid-flex-and-js-5AZeExKx-r)
+- [Live Site](https://fanciful-marzipan-930352.netlify.app/)
 
 ## My process
 
