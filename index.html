@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Article Preview Component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <article class="card">
+            <!-- CARD HEAD -->
+            <div class="card_head">
+                <img src="images/drawers.jpg" alt="" class="card_head_img">
+            </div>
+
+            <!-- CARD BODY -->
+            <div class="card_body">
+                <h1>
+                    Shift the overall look and feel by adding these wonderful
+                    touches to furniture in your home
+                </h1>
+                <p>
+                    Ever been in a room and felt like something was missing? Perhaps
+                    it felt slightly bare and uninviting. I’ve got some simple tips
+                    to help you make any room feel complete.
+                </p>
+            </div>
+
+            <!-- CARD FOOTER -->
+            <div class="card_footer">
+                <!-- Author State Start -->
+                <div class="author-state"> 
+                    <img src="images/avatar-michelle.jpg" alt="" class="author-icon">
+                    <div class="info">
+                        <span class="author">Michelle Appleton</span>
+                        <span class="date">28 Jun 2020</span>
+                    </div>
+                </div>
+                <!-- Author State End -->
+
+                <!-- Media State Start -->
+                <div class="media-state hidden">
+                    <span class="share-text">Share</span>
+                    <div class="media-icons">
+                        <a href="https://www.facebook.com/"><img src="images/icon-facebook.svg" alt="" class="media-icon"></a>
+                        <a href="https://twitter.com/"><img src="images/icon-twitter.svg" alt="" class="media-icon"></a>
+                        <a href="https://www.pinterest.com/"><img src="images/icon-pinterest.svg" alt="" class="media-icon"></a>
+                    </div>
+                </div>
+                <!-- Media State End -->
+
+                <!-- Tooltip Arrow -->
+                <div class="arrow-down hidden"></div>
+
+                <!-- Share SVG Button -->
+                <button class="share-btn">
+                    <object data="images/icon-share.svg" type="image/svg+xml" class="share-icon"></object>
+                </button>
+            </div>
+        </article>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
