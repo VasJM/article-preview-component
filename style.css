@@ -79,6 +79,7 @@ main {
     gap: 1.5em;
     border-radius: 1em;
     overflow: auto;
+    box-shadow: 1em 1em 3em hsla(212, 23%, 69%, 0.3);
 }
 
 /* cCard Head Img */
@@ -255,6 +256,7 @@ h1 {
         padding: 1.25em 2em;
         border-radius: 0.75em;
         transform: translate(16em, -5em);
+        box-shadow: 1em 1em 1em hsla(212, 23%, 69%, 0.3);
     }
 
     .arrow-down {
